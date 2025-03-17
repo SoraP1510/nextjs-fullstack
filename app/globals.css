@@ -1,0 +1,54 @@
+body {
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(168, 255, 255);
+}
+
+img {
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+/* styles/styles.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* ทำให้ข้อความอยู่ตรงกลาง */
+  min-height: 100vh; /* ทำให้เนื้อหาตรงกลางในหน้าจอ */
+  padding: 20px;
+}
+
+.image-container {
+  margin-bottom: 20px; /* เพิ่มช่องว่างระหว่างภาพและข้อความ */
+}
+
+.image {
+  width: 100%; /* ทำให้ขนาดภาพเต็มพื้นที่ */
+  max-width: 600px; /* จำกัดความกว้างของภาพ */
+  height: auto; /* คงอัตราส่วนภาพ */
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.detail {
+  font-size: 16px;
+  color: #555;
+  max-width: 800px; /* จำกัดความกว้างของข้อความ */
+}
